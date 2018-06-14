@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="wrapper"> 
+            <h1>App</h1>  
+            <div id="wrapper-tasks"></div>      
+            <div id="wrapper-modal">
+            </div>
+            <div id="alarm" class="overlay">
+                <div id="alarm-border-all">
+                    <button data-side="left" id="leftBtn"><--</button>
+                    <div id="alarms"></div>
+                    <button data-side="right" id="rightBtn">--></button>
+                </div>
+            </div>
+            <button id="button-add-task">+</button>
+    </div>
+    <script src="./constants.js"></script>
+    <script src="./api/api-creator.js"></script>
+    <script src="./api/index.js"></script>
+    <script src="./app.js"></script>
+    <script src="./timer.js"></script>
+    <script src="./utils.js"></script>
+    <script src="./create-element.js"></script>
+    <script src="./modal-window.js"></script>
+    <script src="./task.js"></script>
+    <script src="./alarm.js"></script>
+    <script src="./alarm-item.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
