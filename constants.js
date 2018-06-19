@@ -8,7 +8,7 @@ const alarms = document.getElementById("alarms")
 const leftBtn = document.getElementById("leftBtn")
 const rightBtn = document.getElementById("rightBtn")
 const currentTime = Date.now()
-
+const defaulTime = "2018-06-22 22:22"
 const msInHour = 3600000
 const msInMinute = 60000
 const msInSecond = 1000

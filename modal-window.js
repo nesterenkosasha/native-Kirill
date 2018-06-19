@@ -10,7 +10,7 @@ class ModalWindow extends Element{
         const task = this.createNode({ el:"div", style:"model-task" })
         const modalTitle = this.createNode({ el:"h2", text: "Enter new task" })
         const inputText = this.createNode({ el:"input", style:"input", id:"taskText", placeholder: "Task text" })
-        const inputDate = this.createNode({ el:"input", style:"input", id:"taskDate", placeholder: "2018.06.14 11:22" })
+        const inputDate = this.createNode({ el:"input", style:"input", id:"taskDate", placeholder: defaulTime })
         const taskBtns = this.createNode({ el:"div", style:"modal-btn" })
         taskBtns.addEventListener("click", (e) => this.handelClick(e))
         const btnCancel = this.createNode({ el:"button", style:"cancel", text:"Cancel" })
